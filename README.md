@@ -41,7 +41,7 @@ src/
 ---
 
 ## ⚙️ Setup & Run
-
+```md
 ### 1. Clone the repository
 
 
@@ -58,23 +58,23 @@ spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 
 ### 3. Run the application
-```md
+
 ./mvnw spring-boot:run
 
 ### 4. Access the app
-```md
+
 Open browser:
 
 http://localhost:8080/customers/list
 
 ### 5.Testing
-```md
+
 Unit tests were implemented for the service layer using:
 
 JUnit 5
 Mockito
 
 ### 6.To run tests:
-```md
+
 ./mvnw test
 
