@@ -1,3 +1,7 @@
+
+---
+
+```md
 # Customer Management System
 
 A full-stack web application built with **Spring Boot, Thymeleaf, JPA, and MySQL** for managing customer records.  
@@ -12,7 +16,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 - Sorted customer listing (by last name)
 - Clean MVC architecture (Controller → Service → Repository → Entity)
 - Logging with Spring AOP
-- Unit testing with JUnit and Mockito
+- Unit testing with JUnit 5 and Mockito
 
 ---
 
@@ -30,6 +34,9 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 ---
 
 ## 📁 Project Structure
+
+```
+
 src/
 ├── controller
 ├── service
@@ -38,43 +45,89 @@ src/
 ├── aspect
 └── resources/templates
 
+````
+
 ---
 
 ## ⚙️ Setup & Run
-```md
- 1. Clone the repository
 
-
+### 🚀 1. Clone the repository
+```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
+````
 
- 2. Configure database
-Update application.properties:
+---
 
+### ⚙️ 2. Configure database
+
+Update `application.properties`:
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
-
 spring.datasource.username=YOUR_USERNAME
-
 spring.datasource.password=YOUR_PASSWORD
+```
 
- 3. Run the application
+---
 
+### ▶️ 3. Run the application
+
+```bash
 ./mvnw spring-boot:run
+```
 
-4. Access the app
+or run `CustomerManagementApplication` in IntelliJ.
 
-Open browser:
+---
 
+### 🌐 4. Access the application
+
+Open in browser:
+
+```
 http://localhost:8080/customers/list
+```
 
- 5.Testing
+---
 
-Unit tests were implemented for the service layer using:
+### 🧪 5. Testing
 
-JUnit 5
-Mockito
+Unit tests were implemented using:
 
-6.To run tests:
+* JUnit 5
+* Mockito
 
+---
+
+### ▶️ 6. Run tests
+
+```bash
 ./mvnw test
+```
+
+---
+
+## 📌 Key Highlights
+
+* Implemented layered architecture for scalability and maintainability
+* Used Spring Data JPA to simplify database interactions
+* Applied AOP for centralized logging
+* Designed testable service layer using dependency injection
+* Covered core business logic with unit tests
+
+---
+
+## 📷 Screenshots (optional)
+
+*Add screenshots here later*
+
+---
+
+## 👤 Author
+
+Jie Yang
+
+
+
 
