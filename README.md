@@ -50,6 +50,7 @@ cd customer-management-system
 
 ### 2. Configure database
 Update application.properties:
+
 spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
@@ -71,6 +72,6 @@ JUnit 5
 Mockito
 
 ### 6.To run tests:
-
+```md
 ./mvnw test
 
