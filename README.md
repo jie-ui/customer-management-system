@@ -1,7 +1,6 @@
-````md
 # Customer Management System
 
-A full-stack web application built with **Spring Boot, Thymeleaf, JPA, and MySQL** for managing customer records.  
+A full-stack web application built with **Spring Boot, Thymeleaf, JPA, and MySQL** for managing customer records.
 This project demonstrates a layered architecture, CRUD operations, validation, and unit testing.
 
 ---
@@ -32,15 +31,13 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ## Project Structure
 
-````
-src/
-├── controller
-├── service
-├── dao (repository)
-├── entity
-├── aspect
-└── resources/templates
-````
+    src/
+    ├── controller
+    ├── service
+    ├── dao (repository)
+    ├── entity
+    ├── aspect
+    └── resources/templates
 
 ---
 
@@ -48,42 +45,30 @@ src/
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/jie-ui/customer-management-system.git
-cd customer-management-system
-```
+    git clone https://github.com/jie-ui/customer-management-system.git
+    cd customer-management-system
 
 ### 2. Configure database
 
 Update `application.properties`:
 
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
-spring.datasource.username=YOUR_USERNAME
-spring.datasource.password=YOUR_PASSWORD
-```
+    spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
+    spring.datasource.username=YOUR_USERNAME
+    spring.datasource.password=YOUR_PASSWORD
 
 ### 3. Run the application
 
-```bash
-./mvnw spring-boot:run
-```
+    ./mvnw spring-boot:run
 
 Or run `CustomerManagementApplication` in IntelliJ.
 
 ### 4. Access the application
 
-Open in browser:
-
-````
-http://localhost:8080/customers/list
-````
+Open in browser: `http://localhost:8080/customers/list`
 
 ### 5. Run tests
 
-```bash
-./mvnw test
-```
+    ./mvnw test
 
 Unit tests were implemented using JUnit 5 and Mockito.
 
@@ -102,4 +87,3 @@ Unit tests were implemented using JUnit 5 and Mockito.
 ## Author
 
 Jie Yang
-````
