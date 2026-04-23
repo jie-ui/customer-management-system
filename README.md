@@ -44,7 +44,7 @@ src/
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
 
@@ -62,13 +62,13 @@ spring.datasource.password=YOUR_PASSWORD
 Open browser:
 http://localhost:8080/customers/list
 
-🧪 Testing
+### 5.Testing
 
 Unit tests were implemented for the service layer using:
 
 JUnit 5
 Mockito
 
-To run tests:
+### 6.To run tests:
 ./mvnw test
 
