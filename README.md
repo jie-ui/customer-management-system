@@ -50,7 +50,7 @@ cd customer-management-system
 
 ### 2. Configure database
 Update application.properties:
-```md
+
 spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
 
 spring.datasource.username=YOUR_USERNAME
@@ -64,7 +64,7 @@ spring.datasource.password=YOUR_PASSWORD
 ### 4. Access the app
 
 Open browser:
-```md
+
 http://localhost:8080/customers/list
 
 ### 5.Testing
