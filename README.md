@@ -62,13 +62,13 @@ spring.datasource.password=YOUR_PASSWORD
 ./mvnw spring-boot:run
 
 ### 4. Access the app
-
+```md
 Open browser:
 
 http://localhost:8080/customers/list
 
 ### 5.Testing
-
+```md
 Unit tests were implemented for the service layer using:
 
 JUnit 5
