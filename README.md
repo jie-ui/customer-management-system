@@ -44,7 +44,7 @@ src/
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
 
@@ -55,7 +55,7 @@ spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 
 ### 3. Run the application
-```bash
+
 ./mvnw spring-boot:run
 
 ### 4. Access the app
@@ -71,6 +71,6 @@ JUnit 5
 Mockito
 
 ### 6.To run tests:
-```bash
+
 ./mvnw test
 
