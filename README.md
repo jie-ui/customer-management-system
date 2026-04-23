@@ -1,6 +1,4 @@
 
----
-
 ```md
 # Customer Management System
 
@@ -47,11 +45,11 @@ src/
 
 ````
 
-
+---
 
 ##  Setup & Run
 
-###  1. Clone the repository
+### 🚀 1. Clone the repository
 ```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
@@ -59,7 +57,7 @@ cd customer-management-system
 
 ---
 
-### ⚙️ 2. Configure database
+###  2. Configure database
 
 Update `application.properties`:
 
@@ -122,7 +120,5 @@ Unit tests were implemented using:
 ## 👤 Author
 
 Jie Yang
-
-
 
 
