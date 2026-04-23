@@ -43,18 +43,18 @@ src/
 ├── aspect
 └── resources/templates
 
-````
+```
 
 ---
 
 ##  Setup & Run
 
-### 🚀 1. Clone the repository
+###  1. Clone the repository
 ```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
 
-````
+```
 
 ---
 
