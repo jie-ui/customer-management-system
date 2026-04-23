@@ -1,5 +1,4 @@
-
-```md
+````md
 # Customer Management System
 
 A full-stack web application built with **Spring Boot, Thymeleaf, JPA, and MySQL** for managing customer records.  
@@ -7,7 +6,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-##  Features
+## Features
 
 - Create, update, delete, and view customer records
 - Server-side validation for input data
@@ -18,7 +17,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - Java 21
 - Spring Boot
@@ -31,10 +30,9 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```
-
+````
 src/
 ├── controller
 ├── service
@@ -42,24 +40,20 @@ src/
 ├── entity
 ├── aspect
 └── resources/templates
-
-```
+````
 
 ---
 
-##  Setup & Run
+## Setup & Run
 
-###  1. Clone the repository
-
-Run the following commands in your terminal:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
+```
 
----
-
-###  2. Configure database
+### 2. Configure database
 
 Update `application.properties`:
 
@@ -69,58 +63,43 @@ spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 ```
 
----
-
-###  3. Run the application
+### 3. Run the application
 
 ```bash
 ./mvnw spring-boot:run
 ```
 
-or run `CustomerManagementApplication` in IntelliJ.
+Or run `CustomerManagementApplication` in IntelliJ.
 
----
-
-###  4. Access the application
+### 4. Access the application
 
 Open in browser:
 
-```
+````
 http://localhost:8080/customers/list
-```
+````
 
----
-
-###  5. Testing
-
-Unit tests were implemented using:
-
-* JUnit 5
-* Mockito
-
----
-
-###  6. Run tests
+### 5. Run tests
 
 ```bash
 ./mvnw test
 ```
 
----
-
-##  Key Highlights
-
-* Implemented layered architecture for scalability and maintainability
-* Used Spring Data JPA to simplify database interactions
-* Applied AOP for centralized logging
-* Designed testable service layer using dependency injection
-* Covered core business logic with unit tests
+Unit tests were implemented using JUnit 5 and Mockito.
 
 ---
 
+## Key Highlights
 
-## 👤 Author
+- Implemented layered architecture for scalability and maintainability
+- Used Spring Data JPA to simplify database interactions
+- Applied AOP for centralized logging
+- Designed testable service layer using dependency injection
+- Covered core business logic with unit tests
+
+---
+
+## Author
 
 Jie Yang
-
-
+````
