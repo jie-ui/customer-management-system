@@ -42,13 +42,13 @@ src/
 
 ## ⚙️ Setup & Run
 ```md
-### 1. Clone the repository
+ 1. Clone the repository
 
 
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
 
-### 2. Configure database
+ 2. Configure database
 Update application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/customer_management
@@ -57,24 +57,24 @@ spring.datasource.username=YOUR_USERNAME
 
 spring.datasource.password=YOUR_PASSWORD
 
-### 3. Run the application
+ 3. Run the application
 
 ./mvnw spring-boot:run
 
-### 4. Access the app
+4. Access the app
 
 Open browser:
 
 http://localhost:8080/customers/list
 
-### 5.Testing
+ 5.Testing
 
 Unit tests were implemented for the service layer using:
 
 JUnit 5
 Mockito
 
-### 6.To run tests:
+6.To run tests:
 
 ./mvnw test
 
