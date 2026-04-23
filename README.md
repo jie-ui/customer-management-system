@@ -50,11 +50,12 @@ src/
 ##  Setup & Run
 
 ###  1. Clone the repository
+
+Run the following commands in your terminal:
+
 ```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
-
-```
 
 ---
 
