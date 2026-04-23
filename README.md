@@ -9,7 +9,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Create, update, delete, and view customer records
 - Server-side validation for input data
@@ -20,7 +20,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Java 21
 - Spring Boot
@@ -33,7 +33,7 @@ This project demonstrates a layered architecture, CRUD operations, validation, a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -49,9 +49,9 @@ src/
 
 ---
 
-## ⚙️ Setup & Run
+##  Setup & Run
 
-### 🚀 1. Clone the repository
+###  1. Clone the repository
 ```bash
 git clone https://github.com/jie-ui/customer-management-system.git
 cd customer-management-system
@@ -71,7 +71,7 @@ spring.datasource.password=YOUR_PASSWORD
 
 ---
 
-### ▶️ 3. Run the application
+###  3. Run the application
 
 ```bash
 ./mvnw spring-boot:run
@@ -81,7 +81,7 @@ or run `CustomerManagementApplication` in IntelliJ.
 
 ---
 
-### 🌐 4. Access the application
+###  4. Access the application
 
 Open in browser:
 
@@ -91,7 +91,7 @@ http://localhost:8080/customers/list
 
 ---
 
-### 🧪 5. Testing
+###  5. Testing
 
 Unit tests were implemented using:
 
@@ -100,7 +100,7 @@ Unit tests were implemented using:
 
 ---
 
-### ▶️ 6. Run tests
+###  6. Run tests
 
 ```bash
 ./mvnw test
@@ -108,7 +108,7 @@ Unit tests were implemented using:
 
 ---
 
-## 📌 Key Highlights
+##  Key Highlights
 
 * Implemented layered architecture for scalability and maintainability
 * Used Spring Data JPA to simplify database interactions
@@ -118,11 +118,6 @@ Unit tests were implemented using:
 
 ---
 
-## 📷 Screenshots (optional)
-
-*Add screenshots here later*
-
----
 
 ## 👤 Author
 
